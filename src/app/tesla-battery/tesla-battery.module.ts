@@ -13,12 +13,14 @@ import { TeslaBatteryComponent } from './containers/tesla-battery/tesla-battery.
 
 // components
 import { TeslaCarComponent } from './components/tesla-car/tesla-car.component';
+import { TeslaStatsComponent } from './components/tesla-stats/tesla-stats.component';
 
 @NgModule({
   declarations: [
     // registering our container component
     TeslaBatteryComponent,
-    TeslaCarComponent
+    TeslaCarComponent,
+    TeslaStatsComponent
   ],
   imports: [
     CommonModule,
